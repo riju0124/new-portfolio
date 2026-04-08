@@ -37,7 +37,7 @@ const ServiceCard = ({ index, title, icon }) => (
       <div className="service-tile-inner h-full rounded-[27px] p-7 sm:p-8">
         <div className="flex items-start justify-between gap-5">
           <div className="max-w-[420px]">
-            <p className="text-[11px] uppercase tracking-[0.3em] text-[#c9b59d]">
+            <p className="theme-muted-text text-[11px] uppercase tracking-[0.3em]">
               0{index + 1}
             </p>
             <h3 className="mt-4 text-white text-[26px] sm:text-[30px] font-semibold leading-[1.1]">
@@ -75,7 +75,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-[#d2a679] tracking-wider`}>
+        <p className={`${styles.sectionSubText} theme-accent tracking-wider`}>
           Introduction
         </p>
         <h2 className={`${styles.sectionHeadText} text-white`}>
@@ -85,7 +85,7 @@ const About = () => {
 
 <motion.p
   variants={fadeIn("", "", 0.1, 1)}
-  className="mt-6 text-[#d8d0c4] text-[17px] max-w-3xl leading-[32px] font-light"
+  className="theme-soft-text mt-6 text-[17px] max-w-3xl leading-[32px] font-light"
 >
   I&apos;m a full stack developer who enjoys building modern web experiences, polished interfaces, and custom RAGE:MP systems with equal attention to design and engineering.
 

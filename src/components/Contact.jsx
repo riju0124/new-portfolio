@@ -65,12 +65,12 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='contact-panel h-full p-6 sm:p-8 lg:p-10 rounded-[28px]'
       >
-        <p className={`${styles.sectionSubText} text-[#d2a679]`}>
+        <p className={`${styles.sectionSubText} theme-accent`}>
           start a conversation
         </p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <p className='mt-4 max-w-2xl text-[15px] sm:text-[16px] leading-[27px] text-[#d8d0c4]'>
+        <p className='theme-soft-text mt-4 max-w-2xl text-[15px] sm:text-[16px] leading-[27px]'>
           If you want a portfolio, a web app, or a custom game system that feels clean and
           polished, you can reach out here or message me on my socials.
         </p>
@@ -91,7 +91,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='your name'
               required
-              className='contact-input bg-[rgba(248,245,239,0.04)] py-4 px-5 sm:px-6 placeholder:text-secondary text-white rounded-xl outline-none border border-white/10 font-medium'
+              className='contact-input contact-input-bg py-4 px-5 sm:px-6 placeholder:text-secondary text-white rounded-xl outline-none border border-white/10 font-medium'
             />
           </label>
 
@@ -104,7 +104,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='your email'
               required
-              className='contact-input bg-[rgba(248,245,239,0.04)] py-4 px-5 sm:px-6 placeholder:text-secondary text-white rounded-xl outline-none border border-white/10 font-medium'
+              className='contact-input contact-input-bg py-4 px-5 sm:px-6 placeholder:text-secondary text-white rounded-xl outline-none border border-white/10 font-medium'
             />
           </label>
 
@@ -117,14 +117,14 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='tell me about your project'
               required
-              className='contact-input min-h-[170px] resize-none bg-[rgba(248,245,239,0.04)] py-4 px-5 sm:px-6 placeholder:text-secondary text-white rounded-xl outline-none border border-white/10 font-medium'
+              className='contact-input contact-input-bg min-h-[170px] resize-none py-4 px-5 sm:px-6 placeholder:text-secondary text-white rounded-xl outline-none border border-white/10 font-medium'
             />
           </label>
 
           {/* BUTTON */}
           <button
             type='submit'
-            className='contact-submit bg-[linear-gradient(135deg,#d2a679,#8c5e3c)] py-3.5 px-8 rounded-xl outline-none w-full sm:w-fit text-[#0d1412] font-bold shadow-md shadow-primary'
+            className='contact-submit py-3.5 px-8 rounded-xl outline-none w-full sm:w-fit theme-button-text font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>

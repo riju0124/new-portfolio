@@ -58,6 +58,34 @@ export const socialLinks = [
   },
 ];
 
+export const themeOptions = [
+  {
+    id: "earth",
+    name: "Riju Classic",
+    swatch: "linear-gradient(135deg, #e7bf8d, #4d8b6c)",
+  },
+  {
+    id: "blue",
+    name: "Riju Neon",
+    swatch: "linear-gradient(135deg, #67e8f9, #3b82f6)",
+  },
+  {
+    id: "aurora",
+    name: "Riju Aurora",
+    swatch: "linear-gradient(135deg, #7c3aed, #22d3ee)",
+  },
+  {
+    id: "crimson",
+    name: "Riju Crimson",
+    swatch: "linear-gradient(135deg, #fb7185, #ef4444)",
+  },
+  {
+    id: "mono",
+    name: "Riju Mono",
+    swatch: "linear-gradient(135deg, #e5e7eb, #94a3b8)",
+  },
+];
+
 const services = [
   {
     title: "Full Stack Builds",
@@ -150,7 +178,7 @@ const experiences = [
     title: "RAGE:MP Backend Developer",
     company_name: "custom server work",
     icon: backend,
-    iconBg: "#efe4d6",
+    iconBg: "#dff5ff",
     date: "Oct 2024 - Dec 2024",
     points: [
       "Built backend systems for roleplay servers with a focus on stable gameplay logic and player data flow.",
@@ -176,7 +204,7 @@ const experiences = [
     title: "Independent Full Stack Developer",
     company_name: "current focus",
     icon: creator,
-    iconBg: "#efe4d6",
+    iconBg: "#dff5ff",
     date: "2025 - Present",
     points: [
       "Building web apps with a stronger focus on clean branding, usability, and scalable structure.",
@@ -213,7 +241,7 @@ const insights = [
     text:
       "I care about performance, structure, and polish together. I do not want a project to only look good or only work well. I want both.",
     label: "quality mindset",
-    image: "https://ui-avatars.com/api/?name=riju&background=8c5e3c&color=f8f5ef",
+    image: "https://ui-avatars.com/api/?name=riju&background=2563eb&color=eef4ff",
   },
   {
     title: "Where I am going",

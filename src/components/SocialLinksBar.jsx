@@ -41,10 +41,10 @@ const SocialLinksBar = ({ className = "" }) => {
             target="_blank"
             rel="noreferrer"
             aria-label={social.name}
-            className="group relative inline-flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-[rgba(248,245,239,0.05)] text-white shadow-[0_16px_36px_rgba(0,0,0,0.2)] backdrop-blur-xl transition-all duration-200 hover:-translate-y-1 hover:border-[#d2a679]/40 hover:text-[#f4d5ad]"
+            className="social-link-button group relative inline-flex h-14 w-14 items-center justify-center rounded-2xl text-white transition-all duration-200"
           >
             <Icon />
-            <span className="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[125%] whitespace-nowrap rounded-full border border-white/10 bg-[rgba(11,16,15,0.94)] px-3 py-1 text-[12px] font-medium text-[#efe4d6] opacity-0 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-200 group-hover:-translate-y-[145%] group-hover:opacity-100">
+            <span className="social-link-tooltip pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[125%] whitespace-nowrap rounded-full px-3 py-1 text-[12px] font-medium opacity-0 transition-all duration-200 group-hover:-translate-y-[145%] group-hover:opacity-100">
               {social.shortLabel}
             </span>
           </a>

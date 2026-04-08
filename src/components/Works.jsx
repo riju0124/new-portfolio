@@ -70,14 +70,14 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-[#d2a679]`}>selected work</p>
+        <p className={`${styles.sectionSubText} theme-accent`}>selected work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-[#d8d0c4] text-[17px] max-w-3xl leading-[30px]"
+          className="theme-soft-text mt-3 text-[17px] max-w-3xl leading-[30px]"
         >
           These projects show how I approach product building: strong visual direction,
           practical engineering, and systems designed to feel smooth for the end user.

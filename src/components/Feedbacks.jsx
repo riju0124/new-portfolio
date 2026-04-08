@@ -17,17 +17,17 @@ const FeedbackCard = ({
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='insight-card p-10 rounded-3xl xs:w-[320px] w-full'
   >
-    <p className='text-[#d2a679] font-black text-[14px] uppercase tracking-[0.28em]'>
+    <p className='theme-accent font-black text-[14px] uppercase tracking-[0.28em]'>
       {label}
     </p>
 
     <div className='mt-1'>
       <p className='mt-4 text-white font-semibold text-[26px]'>{title}</p>
-      <p className='mt-4 text-[#d8d0c4] tracking-wide text-[17px] leading-[30px]'>{text}</p>
+      <p className='theme-soft-text mt-4 tracking-wide text-[17px] leading-[30px]'>{text}</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
-          <p className='text-[#efe4d6] font-medium text-[14px] uppercase tracking-[0.24em]'>
+          <p className='theme-badge-text font-medium text-[14px] uppercase tracking-[0.24em]'>
             personal note
           </p>
         </div>
@@ -49,7 +49,7 @@ const Feedbacks = () => {
         className={`bg-[linear-gradient(135deg,rgba(23,32,29,0.96),rgba(31,44,39,0.9))] rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={`${styles.sectionSubText} text-[#d2a679]`}>my mindset</p>
+          <p className={`${styles.sectionSubText} theme-accent`}>my mindset</p>
           <h2 className={styles.sectionHeadText}>What matters to me.</h2>
         </motion.div>
       </div>
