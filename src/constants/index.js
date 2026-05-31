@@ -19,11 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
+import bgProject from "../../bg-project.jpg";
 
 export const navLinks = [
   {
@@ -175,7 +173,7 @@ const experiences = [
     ],
   },
   {
-    title: "RAGE:MP Backend Developer",
+    title: "Ex RAGE:MP Backend Developer",
     company_name: "custom server work",
     icon: backend,
     iconBg: "#dff5ff",
@@ -188,7 +186,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack RAGE:MP Developer",
+    title: "Ex Full Stack RAGE:MP Developer",
     company_name: "personal and freelance builds",
     icon: mobile,
     iconBg: "#183b35",
@@ -214,16 +212,16 @@ const experiences = [
     ],
   },
   {
-    title: "App and Unreal Exploration",
-    company_name: "what I am learning now",
+    title: "Unreal Engine and FiveM Development",
+    company_name: "current learning focus",
     icon: mobile,
     iconBg: "#183b35",
     date: "2026 - Present",
     points: [
-      "Exploring mobile app development and real-time 3D workflows beyond traditional web stacks.",
-      "Learning Unreal Engine to expand into cinematic interaction and game-side experiences.",
-      "Studying how strong visuals, system logic, and product thinking can work together.",
-      "Pushing toward a multi-platform developer profile with both technical depth and presentation quality.",
+      "Learned Unreal Engine fundamentals for cinematic interaction and game-side experiences.",
+      "Now learning FiveM development to expand into modern GTA V multiplayer workflows.",
+      "Studying how strong visuals, system logic, and product thinking can work together across platforms.",
+      "Keeping past RAGE:MP experience as a foundation while giving more priority to FiveM, full stack, and Unreal-based growth.",
     ],
   },
 ];
@@ -246,7 +244,7 @@ const insights = [
   {
     title: "Where I am going",
     text:
-      "Right now I am growing deeper into full stack development, game systems, app experiences, and stronger visual direction for everything I ship.",
+      "Right now I am growing deeper into full stack development, FiveM development, app experiences, and stronger visual direction for everything I ship.",
     label: "next level",
     image: "https://ui-avatars.com/api/?name=riju&background=3d2f56&color=f8f5ef",
   },
@@ -262,19 +260,19 @@ const projects = [
       { name: "nodejs", color: "green-text-gradient" },
       { name: "ai", color: "pink-text-gradient" },
     ],
-    image: carrent,
+    image: bgProject,
     source_code_link: "https://github.com/",
   },
   {
     name: "Roleplay Server Systems",
     description:
-      "A collection of custom RAGE:MP gameplay systems covering jobs, economy logic, admin tooling, rentals, and backend architecture.",
+      "A collection of past RAGE:MP gameplay systems covering jobs, economy logic, admin tooling, rentals, and backend architecture.",
     tags: [
-      { name: "ragemp", color: "blue-text-gradient" },
+      { name: "ex-ragemp", color: "blue-text-gradient" },
       { name: "csharp", color: "green-text-gradient" },
       { name: "neptune", color: "pink-text-gradient" },
     ],
-    image: jobit,
+    image: bgProject,
     source_code_link: "https://github.com/",
   },
   {
@@ -286,7 +284,7 @@ const projects = [
       { name: "threejs", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: tripguide,
+    image: bgProject,
     source_code_link: "https://github.com/",
   },
   {
@@ -294,11 +292,11 @@ const projects = [
     description:
       "A structured mission and reward system with tracking, custom UI, and database-backed progression for deeper gameplay loops.",
     tags: [
-      { name: "ragemp", color: "blue-text-gradient" },
+      { name: "ex-ragemp", color: "blue-text-gradient" },
       { name: "cef-ui", color: "green-text-gradient" },
       { name: "mysql", color: "pink-text-gradient" },
     ],
-    image: carrent,
+    image: bgProject,
     source_code_link: "https://github.com/",
   },
   {
@@ -307,10 +305,10 @@ const projects = [
       "A vehicle rental feature with categorized options, pricing logic, and zone-aware management for more immersive in-game transport systems.",
     tags: [
       { name: "csharp", color: "blue-text-gradient" },
-      { name: "ragemp", color: "green-text-gradient" },
+      { name: "ex-ragemp", color: "green-text-gradient" },
       { name: "backend", color: "pink-text-gradient" },
     ],
-    image: jobit,
+    image: bgProject,
     source_code_link: "https://github.com/",
   },
 ];

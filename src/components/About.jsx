@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const serviceDescriptions = [
   "I build complete frontend and backend experiences that feel clean, fast, and production ready.",
-  "I create custom gameplay systems, logic flows, and player-facing features for RAGE:MP projects.",
+  "I create custom gameplay systems, logic flows, and player-facing features, with past RAGE:MP experience and a current focus on FiveM development.",
   "I focus on structure, APIs, data flow, and backend features that stay maintainable as a project grows.",
   "I care about layout, animation, spacing, and the small details that make interfaces feel finished.",
 ];
@@ -87,7 +87,7 @@ const About = () => {
   variants={fadeIn("", "", 0.1, 1)}
   className="theme-soft-text mt-6 text-[17px] max-w-3xl leading-[32px] font-light"
 >
-  I&apos;m a full stack developer who enjoys building modern web experiences, polished interfaces, and custom RAGE:MP systems with equal attention to design and engineering.
+  I&apos;m a full stack developer and ex RAGE:MP developer who enjoys building modern web experiences, polished interfaces, and custom game systems with equal attention to design and engineering.
 
   <br /><br />
 
@@ -95,14 +95,14 @@ const About = () => {
 
   <br /><br />
 
-  Alongside full stack work, I&apos;m also exploring app development and Unreal Engine because I want to grow beyond websites and build stronger multi-platform experiences.
+  Alongside full stack work, I&apos;ve learned Unreal Engine and I&apos;m now learning FiveM development because I want to grow beyond websites and build stronger multi-platform experiences.
 </motion.p>
 
       <motion.div
         variants={fadeIn("up", "spring", 0.3, 1)}
         className="mt-10 flex flex-wrap gap-4"
       >
-        {["3+ years building", "full stack systems", "RAGE:MP focused", "clean UI direction", "performance minded"].map((tag, i) => (
+        {["3+ years building", "full stack systems", "learning FiveM", "ex RAGE:MP developer", "clean UI direction", "performance minded"].map((tag, i) => (
           <span
             key={i}
             className="px-4 py-2 text-sm rounded-full bg-[rgba(248,245,239,0.05)] text-white border border-white/10 backdrop-blur-md"

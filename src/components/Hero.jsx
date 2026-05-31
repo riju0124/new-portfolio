@@ -5,9 +5,9 @@ import { styles } from "../styles";
 import SocialLinksBar from "./SocialLinksBar";
 
 const mobileHighlights = [
-  { label: "Focus", value: "Full stack + RAGE:MP" },
+  { label: "Focus", value: "Full stack + FiveM" },
   { label: "Style", value: "Clean UI and motion" },
-  { label: "Builds", value: "Web, systems, gameplay" },
+  { label: "Builds", value: "Web, systems, Unreal" },
 ];
 
 const heroContentVariants = {
@@ -66,7 +66,7 @@ const Hero = ({ currentTheme = "earth" }) => {
             <div className='hero-panel-stack'>
               <span>React</span>
               <span>Node</span>
-              <span>RAGE:MP</span>
+              <span>FiveM</span>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Hero = ({ currentTheme = "earth" }) => {
             variants={heroItemVariants}
             className='hero-badge theme-badge-text inline-flex rounded-full px-4 py-2 text-[11px] sm:text-[12px] uppercase tracking-[0.24em] sm:tracking-[0.28em]'
           >
-            Full stack developer, UI builder, and RAGE:MP systems creator
+            Full stack developer, UI builder, and ex RAGE:MP developer
           </motion.div>
           <div className={`${styles.heroHeadText} text-white hero-title-glow`}>
             <div className='hero-line-mask'>
@@ -106,9 +106,8 @@ const Hero = ({ currentTheme = "earth" }) => {
             variants={heroItemVariants}
             className={`${styles.heroSubText} mt-4 text-white-100 max-w-3xl`}
           >
-            I work on modern frontend experiences, scalable backend features, and custom
-            RAGE:MP systems. I care a lot about clean design, smooth interaction, and
-            building projects that actually feel finished.
+            I build modern web experiences, scalable backend systems, and polished
+            gameplay features, with FiveM as my current game development focus.
           </motion.p>
 
           <motion.div variants={heroItemVariants} className='mt-7 sm:mt-8 flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4 w-full'>
